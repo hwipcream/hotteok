@@ -1,0 +1,116 @@
+/**home.css*/
+
+div.profilepic {
+    margin: 1em;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+}
+div.divider {
+    border-bottom: solid gray 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+p.title {
+    margin-top: -5px;
+    margin-bottom: -1px;
+    position: relative;
+}
+div.dropdown {
+    flex: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+    font-size: 75%;
+    position: relative;
+  }
+  
+div.dropdown-button {
+    display: flex;
+    align-items: center;
+  }
+  
+div.dropdown-link {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92%;
+  }
+  
+div.dropdown:hover > div.dropdown-link {
+    display: block;
+  }
+  
+div.dropdown-link > a {
+    display: block;
+    background-color: white;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /**이런 디테일을 잊지말자*/
+    
+    width: 100%;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+  }
+  
+div.dropdown-link > a:hover {
+    background-color: #cfcdcd;
+  }
+div.roomcontainer {
+  width: auto;
+  height: auto;
+  border: lightgray 1px solid;
+}
+div.roomtitlesquare {
+  background-color: lightgray;
+  margin: 0 1em 0 1em;
+}
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+div.diarycontainer {
+  display: flex;
+  flex: 1;
+}
+div.diarycontainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 340px;
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+div.diarylayout {
+  margin: 20px;
+  width: auto;
+  height: auto;
+  border: solid darkgray 1px;
+  align-items: center;
+  border-radius: 5px;
+}
+div.bookmark {
+    background-color: aquamarine;
+    border-radius: 2px;
+    border: gray 1px solid;
+    font-size: 9px;
+    width: 72px;
+    height: 13px;
+    padding: 2px;
+    margin-left: -11px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 88px;
+    left: 568px;
+    }
+img.albumphoto {
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: url("./images/pattern.png");
+    background-color: gray;
+    background-repeat: repeat
+}
+div.bookcover {
+    background-color: rgb(127, 187, 255);img 
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    width: 3010px;
+    height: 1510px;
+}
+div.bookdot {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 2960px;
+    height: 1460px;
+}
+div.page {
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 2920px;
+    height: 1420px;
+}

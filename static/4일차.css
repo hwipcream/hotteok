@@ -1,0 +1,33 @@
+
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    font-family: 'Gugi', cursive;
+}
+div {
+    text-align: center;
+}
+div.divider {
+    border-bottom: 3px solid red;
+    margin: 2rem;
+}
+.container {
+    width: 400px; height: 400px;
+    margin: 1rem;
+    display: flex;
+}
+.column {
+    flex:  1;
+    display: flex;
+    border: solid 3px red;
+}
+.row1 {
+    flex: 1;
+}
+.row2 {
+    flex: 1;
+}
+p {
+    font-family: 'Nanum Myeongjo', serif;
+}

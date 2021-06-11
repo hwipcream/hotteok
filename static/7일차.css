@@ -1,0 +1,131 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gugi&family=Jua&display=swap');
+body {
+    background-image: url("./images/pattern.png");
+    background-size: 6%;
+    background-color: gray;
+    background-repeat: repeat
+}
+div.bookcover {
+    background-color: rgb(127, 187, 255);
+    border-style: solid;
+    border-color: darkgray;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+}
+div.bookdot {
+    border-style: dotted;
+    border-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+div.page {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+}
+div.container1 {
+    width: 600px;
+    height: 365px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+}
+div.container2 {
+    width: 50px;
+    height: 370px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: gray;
+    position: relative;
+    bottom: 19px;
+    border-width: 1.3px;
+}
+div.column1 {
+    flex: 0.4;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gray;
+    margin: 10px;
+    border-width: 0.5px;
+}
+div.column2 {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gray;
+    margin: 10px;
+    border-width: 0.5px;
+}
+span {
+    font-family: 'Jeju Gothic', serif;
+    font-size: 60%
+}
+span.status {
+    position: absolute;
+    left: 5em;
+    top: 4em;
+}
+span.pagename {
+    position: absolute;
+    left: 22em;
+    top: 4em;
+}
+span.link {
+    position: absolute;
+    left: 50em;
+    top: 4em;
+}
+div.profilepic {
+    margin: 1em;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+}
+p.profilestat {
+    font-family: 'Gugi', cursive;
+    font-size: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p.새글공지 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    margin-left: 2em;
+    margin-bottom: 0px;
+    color:crimson;
+}
+p.미니룸 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    margin-left: 2em;
+    margin-bottom: 0px;
+    color:crimson;
+}
+div.divider {
+    border-bottom: solid gray 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
