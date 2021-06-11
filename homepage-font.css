@@ -1,0 +1,69 @@
+/**font.css*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gugi&family=Jua&display=swap');
+
+span {
+    font-family: 'Jeju Gothic', serif;
+    font-size: 60%
+}
+p.profilestat {
+    font-family: 'Gugi', cursive;
+    font-size: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p.새글공지 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color:rgb(92, 116, 252);
+}
+p.미니룸 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color:rgb(92, 116, 252);
+}
+span.gallery {
+    background-color: crimson;
+    color: white;
+    width: 3em;
+    height: 1em;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+span.pinboard {
+    background-color: rgb(68, 96, 255);
+    color: white;
+    width: 3em;
+    height: 1em;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+span.title {
+    position: relative;
+    margin-left: 1px;
+}
+div.roomtitle {
+    font-size: 60%;
+    font-family: 'Gugi', cursive;
+    position: relative;
+    margin-left: 1em;
+}
+a {
+    font-family: 'Jeju Gothic', serif;
+}
+div.today {
+    font-family: 'Do Hyeon', sans-serif;
+}
+div.days {
+    font-family: 'Do Hyeon', sans-serif;
+}
+div.daysunder {
+    font-family: 'Do Hyeon', sans-serif;
+}

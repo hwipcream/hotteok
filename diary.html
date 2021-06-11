@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/diary-layout.css"/>
+    <link rel="stylesheet" href="./static/diary-font.css"/>
+    <link rel="stylesheet" href="./static/diary-home.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/fd258ac76a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          
+          <span class="status">TODAY 0│TOTAL 0</span>
+          <span class="pagename">♨시나엄ㅁr의 6묘1기♨</span>
+          <span class="link">
+              <a href="https://www.instagram.com/librariancinnacat/">
+                !인스타그램!</a></span>
+          
+          <div class="container1">
+          <div class="column1">
+            <div class="profilepic">
+                <img src="./static/images/시나프로필.jpg"
+                width="120px" height="120px" /></div> 
+                <p class="profilestat">안녕하세요~*^^* 우리 예쁜 시나 자랑하는 블로그입니다. 파도타기 하고 들어오셨으면 일촌이랑 좋아요, 발도장 꼭 잊지말아주세요~~</p>
+    
+<div class="dropdown">
+  <div class="dropdown-button">
+    <div class="dropdown-title">파도타기</div>
+  </div>
+  <div class="dropdown-link">
+    <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로!</a>
+    <a href="https://www.instagram.com/librariancinnacat/" target="_blank">인스타로!</a>
+  </div>
+</div>
+
+
+</div>
+    <div class="column2">
+        <div class="calendarbox">
+            <div class="today">06.08<br/>TUE</div>
+            <div class="days">1</div>
+            <div class="days">2</div>
+            <div class="days">3</div>
+            <div class="days">4</div>
+            <div class="satdays">5</div>
+            <div class="sundays">6</div>
+            <div class="days">7</div>
+            <div class="days">8</div>
+            <div class="days">9</div>
+            <div class="days">10</div>
+            <div class="days">11</div>
+            <div class="satdays">12</div>
+            <div class="sundays">13</div>
+            <div class="days">14</div>
+            <div class="days">15</div>
+            <div class="days">16</div>
+            <div class="days">17</div>
+            <div class="divider"></div>
+            <div class="daysunder">18</div>
+            <div class="satdaysunder">19</div>
+            <div class="sundaysunder">20</div>
+            <div class="daysunder">21</div>
+            <div class="daysunder">22</div>
+            <div class="daysunder">23</div>
+            <div class="daysunder">24</div>
+            <div class="daysunder">25</div>
+            <div class="satdaysunder">26</div>
+            <div class="sundaysunder">27</div>
+            <div class="daysunder">28</div>
+            <div class="daysunder">29</div>
+            <div class="daysunder">30</div>
+
+        </div>
+            <div class="roomcontainer">
+              <div class="diarycontainer">
+                  <div class="diarylayout">
+                    <div class="diarydate">2021.06.08 TUE</div>
+                    <p class="diarycontent">오늘도 난 다른집 고영희님들을 보면서 눈물을 흘린ㄷr...<br/>
+                    유튜브는 나에게 랜선 집사의 경력을 쥐어준다... <br />
+                    그래서 난 오늘도 참치맛 츄르를 장바구니에 담는다...<br />
+                    언젠가는 만날 you... 앙큼캣을 위하여...
+                  </p>
+                  </div>
+                  <div class="diarylayout">
+                    <div class="diarydate">2021.06.07 MON</div>
+                    <p class="diarycontent">게임을하다가 새벽 1시가 된 걸 알아챘다<br/>
+                      언제부터 게임이 내 삶에 큰 부분이 된 걸까<br />
+                      하고싶은 것도 너무 많고, 멋진 사람이 되고싶었는데<br />
+                      이러다가 프로게이머의 길을 걸을 판이다<br />
+                      하지만 페이커의 플레이를 보고 공부나 하자고 마음 먹었다
+                    </p>
+                  </div>
+                  <div class="secretdiary">
+                    <div class="buttonbox">
+                      <button class="diarybutton" onclick="getTextFile()">
+                        <i class="fas fa-lock"></i>비밀이야!</button>
+                    </div>
+                    <div class="diarybox" id="secretbox">
+                      <div class="diarylayout">
+                      <div class="diarydate">비밀스럽지롱</div>
+                      <div class="diarytext" id="secretdiary"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+    </div>
+        <div class="container2">
+            <div class="bookmark">
+            <a href="homepage.html">HOME</a></div>   
+            <div class="bookmark">
+            <a href="diary.html">DIARY</a></div>
+            <div class="bookmark">
+            <a href="photoalbum.html">PHOTO ALBUM</a></div>
+            <div class="bookmark">
+            <a href="guestbook">GUEST BOOK</a></div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        function getTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain";
+    input.onchange = function (event) {
+      processFile(event.target.files[0]);
+    };
+    input.click();
+  }
+
+  function processFile(file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "utf-8");
+
+    reader.onload = function () {
+      document.getElementById("secretdiary").innerText = reader.result;
+      document.getElementById("secretbox").style.display = "block";
+    };
+  }
+    </script>
+  </body>
+</html>
